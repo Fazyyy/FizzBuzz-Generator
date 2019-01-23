@@ -32,8 +32,9 @@ function fizzbuzzLoop (fizz, buzz, maxVal) {
   }
 }
 
-function updateUL (myStr) {
-		str += '<li>'+ myStr + '</li>';
+const updateUL = (myStr) => {
+  "use strict";
+	str += '<li>'+ myStr + '</li>';
 }
 
 myButton.onclick = generateFizzBuzz;
