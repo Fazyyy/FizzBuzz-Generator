@@ -7,11 +7,8 @@ var str = '<ul>';
 
 function generateFizzBuzz () {
   varFizz = document.getElementById("userFizz").value;
-  console.log(varFizz);
   varBuzz = document.getElementById("userBuzz").value;
-  console.log(varBuzz);
   maxVal = document.getElementById("userMax").value;
-  console.log(maxVal);
   fizzbuzzLoop(varFizz, varBuzz, maxVal);
 	str += '</ul>';
 	document.getElementById("fizzBuzz").innerHTML = str;
